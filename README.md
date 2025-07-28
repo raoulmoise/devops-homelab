@@ -32,4 +32,10 @@ Lenovo ThinkPad T470 => i7-7600U / 16GB RAM
 
 ---
 
+## 📂 Repo Structure
 
+
+homelab/
+├── weekly.md
+
+---
