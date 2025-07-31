@@ -14,7 +14,7 @@ Working as a system administrator and having a passion for tech, the purpose of 
 ---
  
 ## 💻 Hardware
-I use a combination of HP Elite Desk 800 G1 SFF, virtual machines, and a Lenovo Thinkpad T470.
+I use a combination of HP Elite Desk 800 G1 SFF, virtual machines, and a Lenovo ThinkPad T470.
 
 HP Elite Desk 800 G1 SFF => I5 4570 / 32GB RAM
 Lenovo ThinkPad T470 => i7-7600U / 16GB RAM
@@ -37,6 +37,6 @@ Lenovo ThinkPad T470 => i7-7600U / 16GB RAM
 
 homelab/
 
-- [weekly](https://github.com/raoulmoise/homelab/blob/8941d6fffa4284625ee5978de2f33174763a4cd9/weekly)
+- [weekly](https://github.com/raoulmoise/homelab/blob/47f43e3d76ee3ea4facaf8459122cb5d7430be9c/weekly)
 
 ---
