@@ -37,6 +37,6 @@ Lenovo ThinkPad T470 => i7-7600U / 16GB RAM
 
 homelab/
 
-- [weekly](https://github.com/raoulmoise/homelab/blob/47f43e3d76ee3ea4facaf8459122cb5d7430be9c/weekly)
+- [weekly](weekly.md)
 
 ---
