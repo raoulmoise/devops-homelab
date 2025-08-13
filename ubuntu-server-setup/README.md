@@ -1,4 +1,4 @@
-# Ubuntu Server Setup Guide (Homelab Edition)
+# Ubuntu Server Setup Guide
 
 This guide documents how I installed and configured Ubuntu Server (24.04) on one of my homelab machines. It includes full install steps, post-install configuration, and essential tooling for running containers and DevOps workflows.
 
