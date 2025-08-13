@@ -11,13 +11,6 @@ Working as a system administrator and having a passion for tech, the purpose of 
 - Use public lab as a living resume
 - Develop job-ready DevOps–SRE reflexes through real tools
 
----
- 
-## 💻 Hardware
-I use a combination of HP Elite Desk 800 G1 SFF, virtual machines, and a Lenovo ThinkPad T470.
-
-HP Elite Desk 800 G1 SFF => I5 4570 / 20GB RAM
-Lenovo ThinkPad T470 => i7-7600U / 16GB RAM
 
 ---
 
@@ -38,5 +31,6 @@ Lenovo ThinkPad T470 => i7-7600U / 16GB RAM
 homelab/
 
 - [weekly](weekly.md)
+- [ubuntu-server1-setup](ubuntu-server-setup)
 
 ---
