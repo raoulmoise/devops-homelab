@@ -59,7 +59,7 @@ Configure the IP Address of the PC;
 
 - Create a primary user (e.g., `user1`)
 - Choose a strong password
-- Set hostname (e.g., `ubuntu-node1`)
+- Set hostname (e.g., `pc1`)
   
  <img width="880" height="331" alt="image" src="https://github.com/user-attachments/assets/5ae1aab3-a2e9-4f96-b52e-a99490d99349" />
 
