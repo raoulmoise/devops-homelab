@@ -31,6 +31,6 @@ Working as a system administrator and having a passion for tech, the purpose of 
 homelab/
 
 - [weekly](weekly.md)
-- [ubuntu-server1-setup](ubuntu-server-setup)
+- [ubuntu-server-setup](ubuntu-server-setup)
 
 ---
