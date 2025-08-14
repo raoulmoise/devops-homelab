@@ -19,4 +19,7 @@ Dashboard allows you to:
 
 ---
 
+## 🧱 Folder Structure
+
+<img width="749" height="41" alt="image" src="https://github.com/user-attachments/assets/7a1ab909-0ba7-423f-ae82-310c6fd860b3" />
 
