@@ -15,7 +15,7 @@ Each service includes:
 
 | Service         | Description                        | Setup Guide                             |
 |----------------|------------------------------------|------------------------------------------|
-| Homepage        | Dashboard & service launcher       | [homepage-dashboard.md](./homepage-dashboard.md) |
+| Homepage        | Dashboard & service launcher       | [homepage-dashboard.md](containters/homepage-dashboard) |
 | qBittorrent     | Lightweight torrent client (web UI)| [qbittorrent.md](./qbittorrent.md)       |
 | Portainer       | Docker container manager GUI       | [portainer.md](./portainer.md) *(coming soon)* |
 | Grafana         | Metrics dashboard (planned)        | *(Coming soon)*                          |
