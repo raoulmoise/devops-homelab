@@ -25,6 +25,13 @@ Working as a system administrator and having a passion for tech, the purpose of 
 
 ---
 
+## 🗃️ Installed applications and tools
+
+GUI
+https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/homepage.png | [Homepage](https://gethomepage.dev/)
+
+Media
+https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/qbittorrent.png | [qBittorent](https://www.qbittorrent.org/)
 ## 📂 Repo Structure
 
 
