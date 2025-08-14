@@ -21,8 +21,7 @@ This guide documents how I deployed it in Docker with persistent storage and opt
 
 ---
 
-
-## Installation
+## ⏳ Installation
 
 qBittorrent was installed using the Docker Compose file provided by [linuxserver](https://hub.docker.com/r/linuxserver/qbittorrent) and modified the environment specifically for my homelab.
 
@@ -61,7 +60,7 @@ After the docker-compose.yaml file was created, we have to run the following com
 
 ## 🔐 Accessing the UI
 
-Visit: http://<your-ip>:8080
+Visit: HTTP://<your-ip>:8080
 Default login:
   - Username: admin
   - Password: a temporary password was generated
