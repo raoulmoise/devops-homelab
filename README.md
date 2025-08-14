@@ -28,10 +28,10 @@ Working as a system administrator and having a passion for tech, the purpose of 
 ## 🗃️ Installed applications and tools
 
 GUI
-https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/homepage.png | [Homepage](https://gethomepage.dev/)
+<img width="4128" height="128" alt="homepage" src="https://github.com/user-attachments/assets/11839883-f4bf-4d33-b25a-e84ef17362a3" /> | [Homepage](https://gethomepage.dev/)
 
 Media
-https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/qbittorrent.png | [qBittorent](https://www.qbittorrent.org/)
+<img width="128" height="128" alt="qbittorrent" src="https://github.com/user-attachments/assets/78561059-19a2-48cf-920c-f170cb6e35f2" /> | [qBittorent](https://www.qbittorrent.org/)
 ## 📂 Repo Structure
 
 
