@@ -44,5 +44,5 @@ homelab/
 
 - [weekly](weekly.md)
 - [ubuntu-server-setup](ubuntu-server-setup)
-
+- [containers](https://github.com/raoulmoise/homelab/tree/7aab78cc8d5fabc82d8a4b4a6d75f90fcda9ed59/containers)
 ---
