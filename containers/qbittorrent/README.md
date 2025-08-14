@@ -55,7 +55,7 @@ services:
 ```
 ---
 
-⚙️ The volumes for downloading the files was put on the RAID1 setup I have on my homepage.
+⚙️ The volumes for downloading the files were put on the RAID1 setup I have on my PC.
 
 After the docker-compose.yaml file was created, we have to run the following command: **docker compose up -d**
 
