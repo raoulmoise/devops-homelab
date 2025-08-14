@@ -66,7 +66,7 @@ Default login:
   - Username: admin
   - Password: a temporary password was generated
 
-We can check the password using the following command: sudo docker logs **container-id**
+We can check the password using the following command: **sudo docker logs *container-id***
 
 <img width="933" height="699" alt="image" src="https://github.com/user-attachments/assets/2acae4e8-1ee8-433c-ad69-556c58fa84d0" />
 
