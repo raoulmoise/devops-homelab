@@ -23,7 +23,7 @@ This guide documents how I deployed it in Docker with persistent storage and opt
 
 ## ⏳ Installation
 
-qBittorrent was installed using the Docker Compose file provided by [linuxserver](https://hub.docker.com/r/linuxserver/qbittorrent) and modified the environment specifically for my homelab.
+qBittorrent was installed using the Docker Compose file provided by [linuxserver](https://hub.docker.com/r/linuxserver/qbittorrent) and modified to suit my homelab environment.
 
 ---
 
