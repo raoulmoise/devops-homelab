@@ -1,6 +1,5 @@
 # 🏠 Homepage Dashboard Setup
-
-Homepage is a minimal, fast, and highly customizable start page for your homelab and services.  
+  
 This guide covers how I deployed it in Docker using a simple volume bind and default configuration.
 
 ---
