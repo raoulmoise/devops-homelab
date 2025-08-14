@@ -15,9 +15,9 @@ Each service includes:
 
 | Service         | Description                        | Setup Guide                             |
 |----------------|------------------------------------|------------------------------------------|
-| Homepage        | Dashboard & service launcher       | [homepage-dashboard](containters/homepage-dashboard) |
-| qBittorrent     | Lightweight torrent client (web UI)| [qbittorrent.md](./qbittorrent.md)       |
-| Portainer       | Docker container manager GUI       | [portainer.md](./portainer.md) *(coming soon)* |
+| Homepage        | Dashboard & service launcher       | [homepage-dashboard](https://github.com/raoulmoise/homelab/tree/c351e4dd0fd70aefee8159401a993f57b8be58a6/containters/homepage-dashboard)) |
+| qBittorrent     | Lightweight torrent client (web UI)| [qbittorrent]     |
+| Portainer       | Docker container manager GUI       | [portainer.md] *(coming soon)* |
 | Grafana         | Metrics dashboard (planned)        | *(Coming soon)*                          |
 | Prometheus      | Metrics collector (planned)        | *(Coming soon)*                          |
 
