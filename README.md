@@ -39,8 +39,9 @@ Media
 
 ## Usefull sites
 
-- <img width="50" height="50" alt="linuxserver-io" src="https://github.com/user-attachments/assets/f7932651-946b-4670-bfe4-1f9322dfb07f" /> | [LinuxServer](https://www.linuxserver.io/)
-- <img width="50" height="50" alt="github" src="https://github.com/user-attachments/assets/3ffb7dd8-6df2-4545-9369-816f47ac8335" /> \ [DashboardIcons](https://dashboardicons.com/)
+<img width="50" height="50" alt="linuxserver-io" src="https://github.com/user-attachments/assets/f7932651-946b-4670-bfe4-1f9322dfb07f" /> | [LinuxServer](https://www.linuxserver.io/)
+
+<img width="50" height="50" alt="github" src="https://github.com/user-attachments/assets/3ffb7dd8-6df2-4545-9369-816f47ac8335" /> \ [DashboardIcons](https://dashboardicons.com/)
 
 ---
 
