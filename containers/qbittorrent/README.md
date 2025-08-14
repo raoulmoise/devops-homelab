@@ -28,8 +28,12 @@ qBittorrent was installed using the Docker Compose file provided by [linuxserver
 
 ---
 
-### Docker Compose File
-  ---
+## 🐳 Docker Compose File
+
+---
+
+```yaml
+version: "3.8"
 services:
   qbittorrent:
     image: lscr.io/linuxserver/qbittorrent:latest
@@ -42,13 +46,13 @@ services:
       - TORRENTING_PORT=6881
     volumes:
       - ./config:/config
-      - /raid/Torrents:/downloads #optional
+      - /raid/Torrents:/downloads
     ports:
       - 8080:8080
       - 6881:6881
       - 6881:6881/udp
     restart: unless-stopped
-
+```
 ---
 
 ⚙️ The volumes for downloading the files was put on the RAID1 setup I have on my homepage.
@@ -59,8 +63,8 @@ After the docker-compose.yaml file was created, we have to run the following com
 
 Visit: http://<your-ip>:8080
 Default login:
-  Username: admin
-  Password: a temporary password was generated
+  - Username: admin
+  - Password: a temporary password was generated
 
 We can check the password using the following command: sudo docker logs **container-id**
 
@@ -68,7 +72,7 @@ We can check the password using the following command: sudo docker logs **contai
 
 ## 🧠 Tips
 
-- Use Homepage dashboard to link and monitor this service
+- Use the Homepage dashboard to link and monitor this service
 
 > This is part of my larger [`homelab`](https://github.com/raoulmoise/homelab)
 
