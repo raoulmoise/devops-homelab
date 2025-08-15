@@ -26,7 +26,7 @@ Each service includes:
 ## 🧱 Deployment Notes
 
 - All containers are run using **Docker Compose**
-- Configuration files and volumes are stored under `//home/labops/docker_volumes`
+- Configuration files and volumes are stored under `/home/labops/docker_volumes`
 
 ---
 
