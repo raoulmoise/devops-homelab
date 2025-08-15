@@ -2,13 +2,6 @@
 
 This folder documents the containerized applications I’ve deployed in my homelab environment using Docker.
 
-Each service includes:
-- Purpose and functionality
-- Docker Compose or run command
-- Volumes, networking, and ports used
-- Screenshots or UI previews (if applicable)
-- Reverse proxy/access notes (if used)
-
 ---
 
 ## 📦 Services
