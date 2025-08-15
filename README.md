@@ -1,7 +1,15 @@
-## 🛢️ Homelab
+# 🛢️ Homelab
 
 This repository contains all the configurations and documentation for my homelab. 
 Working as a system administrator and having a passion for tech, the purpose of my homelab is to learn, explore new things, and have fun doing so. 
+
+---
+
+## 📂 Quick Links
+
+- [Ubuntu Server Install](https://github.com/raoulmoise/homelab/tree/main/ubuntu-server-setup)
+- [Containters](https://github.com/raoulmoise/homelab/tree/main/containers)
+
 
 ---
 
@@ -45,12 +53,3 @@ Media
 
 ---
 
-## 📂 Repo Structure
-
-
-homelab/
-
-- [weekly](weekly.md)
-- [ubuntu-server-setup](ubuntu-server-setup)
-- [containers](https://github.com/raoulmoise/homelab/tree/7aab78cc8d5fabc82d8a4b4a6d75f90fcda9ed59/containers)
----
