@@ -4,6 +4,10 @@ This guide documents how I installed and configured Ubuntu Server (24.04) on one
 
 ---
 
+## 📂 Usefull Links
+
+-[install.md](https://github.com/raoulmoise/homelab/blob/main/ubuntu-server-setup/install.md) | Installation process.
+
 ## 💻 Hardware Used
 
 - Device: HP EliteDesk 800 G1
