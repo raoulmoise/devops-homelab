@@ -42,6 +42,7 @@ GUI
 Media
 
 <img width="50" height="50" alt="qbittorrent" src="https://github.com/user-attachments/assets/78561059-19a2-48cf-920c-f170cb6e35f2" /> | [qBittorent](https://www.qbittorrent.org/)
+<img width="50 height="50 alt="plex" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/plex-light.png" /> | [Plex](https://www.plex.tv/)
 
 ---
 
