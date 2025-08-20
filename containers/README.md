@@ -10,7 +10,7 @@ This folder documents the containerized applications I’ve deployed in my homel
 |----------------|------------------------------------|------------------------------------------|
 | Homepage        | Dashboard & service launcher       | [homepage-dashboard](https://github.com/raoulmoise/homelab/tree/4f24d2abd498cbd578748ce755e7802b76449391/containers/homepage-dashboard) |
 | qBittorrent     | Lightweight torrent client (web UI)| [qbittorrent](https://github.com/raoulmoise/homelab/tree/f02641d934cf39acb2e75ea8027a7dcb0558d01a/containers/qbittorrent)     |
-| Plex            | Media server software              | [plex](https://github.com/raoulmoise/homelab/tree/c41974ef20eb1058ad0aaab47c5fe030de0beb8c/containers/plex)    |
+| Plex            | Media server software              | [plex](containers/plex)    |
 | Portainer       | Docker container manager GUI       | *(coming soon)* |
 | Grafana         | Metrics dashboard (planned)        | *(Coming soon)* |
 | Prometheus      | Metrics collector (planned)        | *(Coming soon)* |
