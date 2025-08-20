@@ -8,7 +8,7 @@ Working as a system administrator and having a passion for tech, the purpose of 
 ## 📂 Quick Links
 
 - [Ubuntu Server Install](https://github.com/raoulmoise/homelab/tree/main/ubuntu-server-setup)
-- [Containters](https://github.com/raoulmoise/homelab/tree/main/containers)
+- [Containers](https://github.com/raoulmoise/homelab/tree/main/containers)
 
 
 ---
