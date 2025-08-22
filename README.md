@@ -22,6 +22,17 @@ Working as a system administrator and having a passion for tech, the purpose of 
 
 ---
 
+## 💻 Hardware Used
+
+### First Computer – HP EliteDesk 800 G1  
+- **CPU:** Intel Core i5-4570  
+- **RAM:** 32 GB DDR3  
+- **Storage:** 480 GB SSD + 2 × 1 TB HDD (RAID1)  
+- **Network:** Ethernet (static IP via Netplan)  
+- **Operating System:** Ubuntu Server (main homelab host)
+
+---
+
 ## 📚 Learning Themes
 
 - Infrastructure as Code (IaC)
