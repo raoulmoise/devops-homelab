@@ -20,7 +20,9 @@ Dashboard allows you to:
 
 ## 🧱 Folder Structure
 
-<img width="510" height="37" alt="image" src="https://github.com/user-attachments/assets/86886ea9-903b-4c8f-9c3a-14e4478464a7" />
+/home/labops/docker_volumes/homepage/
+└── docker-compose.yml
+└── config/
 
 ## ⏳ Installation
 
