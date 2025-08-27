@@ -22,7 +22,9 @@ Portainer allows you to:
 
 ## 🧱 Folder Structure
 /home/labops/docker_volumes/portainer/
+
 └── docker-compose.yml
+
 └── data/
 
 ---
