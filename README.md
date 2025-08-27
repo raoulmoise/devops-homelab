@@ -56,6 +56,10 @@ Media
 
 <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/plex.png" width="50" height="50" /> | [Plex](https://www.plex.tv/)
 
+Tools
+
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/portainer-dark.png" width="50" height="50" /> | [Portainer](https://www.portainer.io/)
+
 ---
 
 ## Usefull sites
