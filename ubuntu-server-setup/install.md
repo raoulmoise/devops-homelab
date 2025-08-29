@@ -77,5 +77,5 @@ Configure the IP Address of the PC;
 - Eject USB and reboot
 - Login with your user credentials
 - Run the following commands:
-    1. sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
-    2. sudo apt update && sudo apt upgrade -y
+    1. sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target => I use this so that the PC will never enter sleep/hibernate.
+    2. sudo apt update && sudo apt upgrade -y => A good practice to have everything at the latest update.
