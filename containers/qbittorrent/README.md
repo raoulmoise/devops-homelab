@@ -73,6 +73,11 @@ We can check the password using the following command: **sudo docker logs *conta
 
 - Use the Homepage dashboard to link and monitor this service
 
-> This is part of my larger [`homelab`](https://github.com/raoulmoise/homelab)
+---
 
+## 🚧 Status
+
+🟢 Actively maintained as part of my [`homelab`](https://github.com/raoulmoise/homelab) project.
+
+---
 
