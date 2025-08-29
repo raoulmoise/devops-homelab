@@ -18,16 +18,6 @@ This guide documents how I installed and configured Ubuntu Server (24.04) on one
 
 ---
 
-## 📚 What’s Covered
-
-| File | Description |
-|------|-------------|
-| `install.md` | Step-by-step installation process |
-| `post-install.md` | Basic configuration, hardening, and tooling |
-| `scripts/` | Optional automation scripts (e.g., Docker install) |
-
----
-
 ## 📦 Software Installed
 
 - OpenSSH server
