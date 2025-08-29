@@ -60,3 +60,9 @@ docker compose pull
 docker compose up -d
 
 ```
+
+## 🚧 Status
+
+🟢 Actively maintained as part of my [`homelab`](https://github.com/raoulmoise/homelab) project.
+
+---
