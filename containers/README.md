@@ -30,4 +30,10 @@ This folder documents the containerized applications I’ve deployed in my homel
 - Reusable for reinstallations or new nodes
 - Part of my DevOps learning documentation
 
-> This is part of my larger [`homelab`](https://github.com/raoulmoise/homelab) project.
+---
+
+## 🚧 Status
+
+🟢 Actively maintained as part of my [`homelab`](https://github.com/raoulmoise/homelab) project.
+
+---
