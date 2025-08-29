@@ -61,5 +61,10 @@ Visit: HTTP://your-ip>:3000
 
 - You can [configure](https://github.com/raoulmoise/homelab/blob/96aa2341308cd4b757560acecb7d355e4446f792/containers/homepage-dashboard/configuration.md) your Dashboard using the different .yaml files provided by the container
 
-> This is part of my larger [`homelab`](https://github.com/raoulmoise/homelab)
+---
 
+## 🚧 Status
+
+🟢 Actively maintained as part of my [`homelab`](https://github.com/raoulmoise/homelab) project.
+
+---
