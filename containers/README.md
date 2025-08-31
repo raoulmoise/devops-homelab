@@ -34,6 +34,9 @@ This folder documents the containerized applications I’ve deployed in my homel
 
 ## 🚧 Status
 
+<img width="816" height="141" alt="image" src="https://github.com/user-attachments/assets/6e4b192a-4d2b-4e2c-9609-70fa1e6d02df" />
+
+
 🟢 Actively maintained as part of my [`homelab`](https://github.com/raoulmoise/homelab) project.
 
 ---
