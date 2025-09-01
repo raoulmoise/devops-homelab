@@ -1,6 +1,6 @@
-# 🔐 Tailscale Setup
+# 🔐 Tailscale (Docker) Setup
 
-This guide documents how I installed and configured [Tailscale](https://tailscale.com/) on my homelab server to enable secure remote access to my network and services.
+This guide documents how I deployed [Tailscale](https://tailscale.com/) inside Docker to enable secure remote access to my homelab.
 
 ---
 
@@ -10,11 +10,10 @@ This guide documents how I installed and configured [Tailscale](https://tailscal
 It’s built on WireGuard and handles NAT traversal automatically, allowing you to connect to your machines anywhere without port forwarding."
 
 Tailscale allows you to:
-- Access your homelab from anywhere securely
-- Bypass ISP CGNAT or firewall limitations (no public IP required)
-- Use a private subnet of **100.x.x.x** addresses for all your devices
-- Share specific machines or services with other users
-- Manage devices from a central admin dashboard
+- Access your homelab securely from anywhere
+- Bypass CGNAT and firewall limitations (no public IP required)
+- Use a private subnet of **100.x.x.x** addresses across devices
+- Manage all machines from a central admin console
 
 🔗 Project site: [https://tailscale.com/](https://tailscale.com/)
 
@@ -33,41 +32,47 @@ Tailscale allows you to:
 
 ## ⏳ Installation
 
-Tailscale was installed using the official Linux instructions:
+**Folder setup:**
+```bash
+mkdir -p /home/labops/docker_volumes/tailscale/config
+cd /home/labops/docker_volumes/tailscale
+docker compose up -d
+```
+Generate an auth key in the Tailscale admin console (Settings → Keys):
+TS_AUTHKEY=tskey-auth-XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+TS_HOSTNAME=YOURNAME
 
-1. Add Tailscale repository and install:
-   ```bash
-   curl -fsSL https://tailscale.com/install.sh | sh
-   ```
-<img width="587" height="36" alt="image" src="https://github.com/user-attachments/assets/583b5df0-b613-4ec6-8481-cc9ac3e403ce" />
-
-2. Start the Tailscale service:
-  ```bash
-   sudo tailscale up
-  ```
-<img width="349" height="26" alt="image" src="https://github.com/user-attachments/assets/eb13a9e3-d79e-4166-bbca-c2db7a44ce96" />
-
-3. Authenticate by following the login link in your browser.
-
-<img width="450" height="31" alt="image" src="https://github.com/user-attachments/assets/11aafb19-d0cd-45e5-90bb-096ab1d13957" />
-
+## 🐳 Docker Compose File
 ---
+```yaml
+version: "3.9"
+services:
+  tailscale:
+    image: tailscale/tailscale:latest
+    container_name: tailscale
+    hostname: TS_HOSTNAME
+    network_mode: host
+    cap_add: # Required for tailscale to work
+      - NET_ADMIN
+      - NET_RAW
+    devices: # Required for tailscale to work
+      - /dev/net/tun:/dev/net/tun
+    environment:
+      - TS_AUTHKEY=TS_AUTHKEY 
+      - TS_STATE_DIR=/var/lib/tailscale # State data will be stored in this dir
+    volumes:
+      - /home/labops/docker_volumes/tailscale/config:/var/lib/tailscale
+    restart: unless-stopped
+```
 
-## 🔐 Accessing the VPN
+## 🔐 Accessing Tailscale
 
-Once authenticated, the machine will appear in your Tailscale admin console:
-https://login.tailscale.com/admin/machines
-
----
-
-##🧠 Tips
-
-- Use tailscale ip -4 to check your device’s private VPN address.
-- Use tailscale status to see connected peers.
-- For SSH access, enable Tailscale SSH
-  ```bash
-  sudo systemctl enable tailscaled
-  ```
+- Check your node in the admin console: https://login.tailscale.com/admin/machines
+- On the host, verify:
+```bash
+docker exec tailscale tailscale status
+docker exec tailscale tailscale ip -4
+```
 
 ---
 
