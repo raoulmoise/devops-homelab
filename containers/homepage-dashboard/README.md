@@ -54,7 +54,8 @@ services:
 
 Visit: HTTP://your-ip>:3000
 
-<img width="1779" height="975" alt="image" src="https://github.com/user-attachments/assets/8bafcf6e-faca-472c-ad20-a549d20da586" />
+<img width="1898" height="1036" alt="image" src="https://github.com/user-attachments/assets/868bd063-0686-4d13-87fa-e4f0a632d37a" />
+
 
 
 ## 🧠 Tips
