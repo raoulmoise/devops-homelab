@@ -41,6 +41,7 @@ docker compose up -d
 Generate an auth key in the Tailscale admin console (Settings → Keys):
 
 TS_AUTHKEY=tskey-auth-XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 TS_HOSTNAME=YOURNAME
 
 ## 🐳 Docker Compose File
