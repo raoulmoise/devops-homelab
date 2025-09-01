@@ -60,6 +60,10 @@ Visit: HTTP://your-ip>:3000
 ## 🧠 Tips
 
 - You can [configure](https://github.com/raoulmoise/homelab/blob/96aa2341308cd4b757560acecb7d355e4446f792/containers/homepage-dashboard/configuration.md) your Dashboard using the different .yaml files provided by the container
+- After some testing with my server and some restart, I have noticed that the container does not restart automatically, so I have added this command:
+```bash
+sudo docker update --restart unless-stopped homepage
+```
 
 ---
 
