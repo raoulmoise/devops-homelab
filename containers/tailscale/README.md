@@ -72,6 +72,7 @@ services:
 docker exec tailscale tailscale status
 docker exec tailscale tailscale ip -4
 ```
+<img width="538" height="36" alt="image" src="https://github.com/user-attachments/assets/95256dc8-472f-48f6-97a1-1ae789d5d6fb" />
 
 ---
 
