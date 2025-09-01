@@ -39,6 +39,7 @@ cd /home/labops/docker_volumes/tailscale
 docker compose up -d
 ```
 Generate an auth key in the Tailscale admin console (Settings → Keys):
+
 TS_AUTHKEY=tskey-auth-XXXXXXXXXXXXXXXXXXXXXXXXXXXX
 TS_HOSTNAME=YOURNAME
 
