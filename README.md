@@ -59,6 +59,10 @@ Tools
 
 <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/portainer-dark.png" width="50" height="50" /> | [Portainer](https://www.portainer.io/)
 
+Security
+
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/tailscale.png" width="50" height="50" /> | [Tailscale](https://tailscale.com/)
+
 ---
 
 ## Usefull sites
