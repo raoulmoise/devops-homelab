@@ -38,12 +38,10 @@ mkdir -p /home/labops/docker_volumes/tailscale/config
 cd /home/labops/docker_volumes/tailscale
 docker compose up -d
 ```
-Generate an auth key in the Tailscale admin console (Settings → Keys):
+- After docker compose up, in the installation part, there will be the following prompt:
+<img width="613" height="70" alt="image" src="https://github.com/user-attachments/assets/c58ea510-a071-453d-9b65-31aa3bb81d1c" />
 
-TS_AUTHKEY=tskey-auth-XXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-TS_HOSTNAME=YOURNAME
-
+- Copy the link and use it to authenticate into Tailscale
 ## 🐳 Docker Compose File
 ---
 ```yaml
@@ -52,15 +50,14 @@ services:
   tailscale:
     image: tailscale/tailscale:latest
     container_name: tailscale
-    hostname: TS_HOSTNAME
+    hostname: ubuntuserver1
     network_mode: host
     cap_add: # Required for tailscale to work
       - NET_ADMIN
       - NET_RAW
     devices: # Required for tailscale to work
       - /dev/net/tun:/dev/net/tun
-    environment:
-      - TS_AUTHKEY=TS_AUTHKEY 
+    environment: 
       - TS_STATE_DIR=/var/lib/tailscale # State data will be stored in this dir
     volumes:
       - /home/labops/docker_volumes/tailscale/config:/var/lib/tailscale
