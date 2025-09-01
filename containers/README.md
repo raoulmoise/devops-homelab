@@ -12,6 +12,7 @@ This folder documents the containerized applications I’ve deployed in my homel
 | qBittorrent     | Lightweight torrent client (web UI)| [qbittorrent](https://github.com/raoulmoise/homelab/tree/main/containers/qbittorrent)     |
 | Plex            | Media server software              | [plex](https://github.com/raoulmoise/homelab/tree/main/containers/plex)    |
 | Portainer       | Docker container manager GUI       | [portainer](https://github.com/raoulmoise/homelab/tree/main/containers/portainer) |
+| Tailscale       | VPN                                | [tailscale](https://github.com/raoulmoise/homelab/tree/main/containers/tailscale)
 | Grafana         | Metrics dashboard (planned)        | *(Coming soon)* |
 | Prometheus      | Metrics collector (planned)        | *(Coming soon)* |
 
