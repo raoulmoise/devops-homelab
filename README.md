@@ -9,7 +9,7 @@ Working as a system administrator and having a passion for tech, the purpose of 
 
 - [Ubuntu Server Install](https://github.com/raoulmoise/homelab/tree/main/ubuntu-server-setup)
 - [Containers](https://github.com/raoulmoise/homelab/tree/main/containers)
-
+- [Tailscale](https://github.com/raoulmoise/homelab/tree/main/tailscale)
 
 ---
 
