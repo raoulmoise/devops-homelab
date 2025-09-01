@@ -24,14 +24,23 @@ For my dashboard, I have used the following files listed below.
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
+- Tools:
+    - Portainer:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/portainer-dark.png
+        href: https://192.168.1.240:9443/#!/home
+        description: Portainer
+    - ChatGPT:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/chatgpt.png
+        href: https://chatgpt.com/
+        description: ChatGPT
 - Media:
     - qBittorent:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/qbittorrent.png
-        href: http://0.0.0.0:8080
+        href: http://192.168.1.240:8080
         description: qBittorent
     - Plex:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/plex-light.png
-        href: http://0.0.0.0:32400/web/
+        href: http://192.168.1.240:32400/web/
         description: Plex
 - Social:
     - LinkedIn:
@@ -66,7 +75,10 @@ For my dashboard, I have used the following files listed below.
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/reddit.png
         href: https://www.reddit.com/
         description: Reddit
-
+    - Roadmap:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/broadcastchannel.png
+        href: https://roadmap.sh/devops
+        description: RoadMap
 ```
 
 - In the **Icon** field, you place the icon you want for the specific service
