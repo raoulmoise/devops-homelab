@@ -47,6 +47,7 @@ services:
       HOMEPAGE_ALLOWED_HOSTS: <YOUR-IP-ADDRESS> # required, may need port. See gethomepage.dev/installation/#homepage_allowed_hosts
       PUID: 1000
       PGID: 1000
+    restart: unless-stopped
 ```
 ---
 
