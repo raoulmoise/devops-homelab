@@ -1,7 +1,7 @@
 # 🛢️ Homelab
 
 This repository contains all the configurations and documentation for my homelab. 
-Working as a system administrator and having a passion for tech, the purpose of my homelab is to learn, explore new things, and have fun doing so. 
+As a system administrator with a passion for technology, the purpose of my homelab is to learn, explore new things, and have fun doing so. 
 
 ---
 
@@ -28,8 +28,8 @@ Working as a system administrator and having a passion for tech, the purpose of 
 - **CPU:** Intel Core i5-4570  
 - **RAM:** 32 GB DDR3  
 - **Storage:** 480 GB SSD + 2 × 1 TB HDD (RAID1)  
-- **Network:** Ethernet (static IP via Netplan)  
-- **Operating System:** Ubuntu Server (main homelab host)
+- **Network:** static IP  
+- **Operating System:** Proxmox VE
 
 ---
 
@@ -77,7 +77,7 @@ Security
 ## 🔄 Homelab Update (Sept 2025)
 
 I have restructured my homelab to run on **Proxmox VE** instead of only a standalone Ubuntu Server.  
-This setup lets me organize workloads into dedicated virtual machines (VMs) and simulate production-like infrastructure.  
+This setup enables me to organize workloads into dedicated virtual machines (VMs) and simulate a production-like infrastructure.  
 All steps and notes are documented here:  
 👉 [proxmox-setup/](./proxmox-setup)
 
