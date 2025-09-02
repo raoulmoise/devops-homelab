@@ -21,8 +21,8 @@ This guide documents how I installed and configured Ubuntu Server (24.04) on one
 ## 📦 Software Installed
 
 - OpenSSH server
-- Docker
-- Homepage
+- Docker + Containers
+- Tailscale
 
 ---
 
