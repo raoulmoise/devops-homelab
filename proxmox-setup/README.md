@@ -21,7 +21,7 @@ The goal is to simulate production-like infrastructure by separating workloads i
 ---
 
 ## 🚀 Current VM Plan
-- **VM1:** Ubuntu Server – Docker (Homepage, Portainer, Tailscale)  
+- **VM1:** Ubuntu Server – Docker (Homepage, Portainer) 
 - **VM2:** Monitoring – Prometheus & Grafana  
 - **VM3:** Security – SNMP, Suricata, Firewall tools  
 - **VM4+:** Future experiments  
