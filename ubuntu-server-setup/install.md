@@ -1,4 +1,4 @@
-# 🐧 Install Ubuntu Server 24.04 on Proxmox 9.x VM
+# 🐧 Install Ubuntu Server 24.x on Proxmox 9.x VM
 
 This guide documents the installation of **Ubuntu Server 24.04 LTS** inside **Proxmox VE 9.x**, creating a lightweight VM dedicated to running **Portainer**.
 
@@ -18,7 +18,7 @@ This guide documents the installation of **Ubuntu Server 24.04 LTS** inside **Pr
 
 ## 📥 Step 1 – Upload Ubuntu ISO
 
-1. Download **Ubuntu Server 24.04 ISO**:  
+1. Download **Ubuntu Server 24.x ISO**:  
    👉 [Ubuntu Server Downloads](https://ubuntu.com/download/server)
 
 2. Proxmox Web UI → `proxmoxmain` → **zfs1 › ISO Images › Upload** → select ISO.
@@ -31,17 +31,12 @@ From Proxmox Web UI:
 
 - **General**
   - Node: `proxmoxmain`
-  - VM ID: auto (e.g., `101`)
+  - VM ID: auto (e.g., `100`)
   - Name: `Portainer`
 
 - **OS**
-  - ISO Image: `ubuntu-24.04-live-server-amd64.iso`
+  - ISO Image: `ubuntu-24.x-live-server-amd64.iso`
   - Guest OS: `Linux` → `6.x - 2.6 Kernel`
-
-- **System**
-  - BIOS: OVMF (UEFI) or SeaBIOS  
-  - Machine: `q35`  
-  - QEMU Agent: **Enable**
 
 - **Disks**
   - Bus: SCSI  
@@ -55,11 +50,11 @@ From Proxmox Web UI:
   - Type: `host`
 
 - **Memory**
-  - 2048 MB (ballooning enabled)
+  - 2048 MB
 
 - **Network**
   - Bridge: `vmbr0`  
-  - Model: VirtIO (paravirtualized)
+  - Model: VirtIO
 
 Finish → Start VM.
 
