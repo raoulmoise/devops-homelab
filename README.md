@@ -73,6 +73,15 @@ Security
 
 ---
 
+## 🔄 Homelab Update (Sept 2025)
+
+I have restructured my homelab to run on **Proxmox VE** instead of only a standalone Ubuntu Server.  
+This setup lets me organize workloads into dedicated virtual machines (VMs) and simulate production-like infrastructure.  
+All steps and notes are documented here:  
+👉 [proxmox-setup/](./proxmox-setup)
+
+---
+
 ## 🚧 Status
 
 🟢 Actively maintained as part of my [`homelab`](https://github.com/raoulmoise/homelab) project.
