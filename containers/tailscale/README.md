@@ -1,6 +1,7 @@
 # 🔐 Tailscale (Docker) Setup
 
 This guide documents how I deployed [Tailscale](https://tailscale.com/) inside Docker to enable secure remote access to my homelab.
+Update: For the new homelab setup with Proxmox, Tailscale was installed with the normal procedure for Linux devices.
 
 ---
 
@@ -16,17 +17,6 @@ Tailscale allows you to:
 - Manage all machines from a central admin console
 
 🔗 Project site: [https://tailscale.com/](https://tailscale.com/)
-
----
-
-## 💻 Hardware Used
-
-### First Computer – HP EliteDesk 800 G1 (Homelab Host)  
-- **CPU:** Intel Core i5-4570  
-- **RAM:** 32 GB DDR3  
-- **Storage:** 480 GB SSD + 2 × 1 TB HDD (RAID1)  
-- **Network:** Ethernet (static IP via Netplan)  
-- **Operating System:** Ubuntu Server  
 
 ---
 
