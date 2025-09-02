@@ -66,7 +66,7 @@ Console into the VM and follow the installer:
 
 - Keyboard/Language: your choice  
 - Network: static 
-- Disk: guided install on 20 GB  
+- Disk: guided install on 20 GB + LUKS crypt  
 - User: create your admin user  
 - Enable OpenSSH server  
 
