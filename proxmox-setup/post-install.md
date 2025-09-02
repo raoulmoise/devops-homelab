@@ -53,6 +53,8 @@ Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
 - HDDs (2 × 1TB) → Configured as ZFS mirror pool (tank) using the GUI.
 - Used for backups and larger VM storage.
 
+![Untitled](https://github.com/user-attachments/assets/62614586-d7d1-4fd6-b528-cef2146a4960)
+
 ---
 
 ## Security
