@@ -64,6 +64,7 @@ Suites: trixie
 Components: no-subscription
 Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
 ```
+<img width="545" height="80" alt="image" src="https://github.com/user-attachments/assets/86699b52-1b26-439f-935e-6469948e09de" />
 
 - Configured local storage (SSD for VMs, HDD RAID for backups/ISO/images).
 -  Created first VM: Ubuntu Server 24.04 LTS.
