@@ -7,7 +7,6 @@ As a system administrator with a passion for technology, the purpose of my homel
 
 ## 📂 Quick Links
 
-- [Ubuntu Server Install](https://github.com/raoulmoise/homelab/tree/main/ubuntu-server-setup)
 - [Containers](https://github.com/raoulmoise/homelab/tree/main/containers)
 - [Proxmox](https://github.com/raoulmoise/homelab/tree/main/proxmox-setup)
 
