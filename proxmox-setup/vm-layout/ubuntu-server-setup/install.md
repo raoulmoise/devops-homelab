@@ -79,16 +79,7 @@ Reboot when finished.
 
 ## 🔧 Step 4 – Post-Install
 
-SSH into the VM or use the console:
-
-```bash
-# Update base system
-sudo apt update && sudo apt full-upgrade -y
-
-# Install QEMU guest agent
-sudo apt install -y qemu-guest-agent
-sudo systemctl enable --now qemu-guest-agent
-```
+[post-install](https://github.com/raoulmoise/homelab/blob/main/proxmox-setup/vm-layout/ubuntu-server-setup/post-install.md)
 
 ---
 
