@@ -44,7 +44,7 @@ services:
   portainer:
     image: portainer/portainer-ce:latest
     container_name: portainer
-    restart: always
+    restart: unless-stopped
     ports:
       - "9443:9443"   # HTTPS Web UI
       - "8000:8000"   # Optional Edge agent tunnel
