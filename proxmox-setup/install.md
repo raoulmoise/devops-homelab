@@ -41,10 +41,30 @@ The goal is to manage multiple virtual machines (VMs) for Docker services, monit
 ---
 
 ## 📦 Step 5 – Initial Configuration
-- Updated repositories:
+- Add non-subscription repositories and update them:
 ```bash
+nano /etc/apt/sources.list.d/proxmox.sources
+nano /etc/apt/sources.list.d/ceph.sources
 apt update && apt full-upgrade -y
 ```
+### proxmox.sources file
+```bash
+Types: deb
+URIs: http://download.proxmox.com/debian/pve
+Suites: trixie
+Components: pve-no-subscription
+Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
+```
+
+### ceph.sources file
+```bash
+Types: deb
+URIs: http://download.proxmox.com/debian/ceph-squid
+Suites: trixie
+Components: no-subscription
+Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
+```
+
 - Configured local storage (SSD for VMs, HDD RAID for backups/ISO/images).
 -  Created first VM: Ubuntu Server 24.04 LTS.
 
