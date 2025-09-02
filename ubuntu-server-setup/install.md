@@ -1,81 +1,105 @@
-# Ubuntu Server Installation Guide
+# 🐧 Install Ubuntu Server 24.04 on Proxmox 9.x VM
 
-This document covers a clean installation of **Ubuntu Server** (24.04 LTS) on bare metal.
-
----
-
-## 🛠️ Pre-Installation Checklist
-
--  USB drive (at least 4GB)
--  Ubuntu Server ISO: [https://ubuntu.com/download/server](https://ubuntu.com/download/server)
--  Tool to write ISO to USB (Rufus)
+This guide documents the installation of **Ubuntu Server 24.04 LTS** inside **Proxmox VE 9.x**, creating a lightweight VM dedicated to running **Portainer**.
 
 ---
 
-## 1. 💾 Writing ISO to USB (Optional but Recommended)
+## ⚙️ VM Specifications
 
-1. Download [Rufus](https://rufus.ie/en/)
-2. Write the ISO to USB
-
-<img width="461" height="570" alt="image" src="https://github.com/user-attachments/assets/1df480db-9169-452d-83b0-6185b49e811b" />
-
----
-
-## 2. 💻 Boot into Installer
-
-1. Insert the bootable USB and restart the machine  
-2. Select "Try or Install Ubuntu Server"
-
-<img width="635" height="398" alt="image" src="https://github.com/user-attachments/assets/1e4280d4-b138-4665-8950-f514b38ec546" />
-
-## 3. 🗣️ Select the language
-
-Select the language you want to use and the keyboard layout
-
-<img width="676" height="109" alt="image" src="https://github.com/user-attachments/assets/da939383-a8cd-4aee-93df-ffbe55fb22bf" />
+- **Node:** `proxmoxmain`  
+- **VM Name:** `Portainer`  
+- **Storage:** `zfs1`  
+- **Disk Size:** 20 GB (SSD-backed)  
+- **CPU:** 1 core  
+- **RAM:** 2 GB  
+- **Network:** `vmbr0` bridge (VirtIO)  
 
 ---
 
-## 3. 🌐 Network Configuration
+## 📥 Step 1 – Upload Ubuntu ISO
 
-Configure the IP Address of the PC;
+1. Download **Ubuntu Server 24.04 ISO**:  
+   👉 [Ubuntu Server Downloads](https://ubuntu.com/download/server)
 
-<img width="585" height="376" alt="image" src="https://github.com/user-attachments/assets/d3d019a0-bb19-4203-9f03-06972fba5042" />
-
-- Choose the correct network interface (usually `enpXs0` or `eth0`)
-- For homelab setups: choose **Manual IP**
+2. Proxmox Web UI → `proxmoxmain` → **zfs1 › ISO Images › Upload** → select ISO.
 
 ---
 
-## 4. 🗃️ Storage Setup
+## 🖥️ Step 2 – Create VM
 
-- For my homelab, I have used the automatically assigned storage on the main SSD
-- I have added the X2 1TB HDD configured as RAID1, mounted separetly
-- Always **encrypt** the storage
+From Proxmox Web UI:
+
+- **General**
+  - Node: `proxmoxmain`
+  - VM ID: auto (e.g., `101`)
+  - Name: `Portainer`
+
+- **OS**
+  - ISO Image: `ubuntu-24.04-live-server-amd64.iso`
+  - Guest OS: `Linux` → `6.x - 2.6 Kernel`
+
+- **System**
+  - BIOS: OVMF (UEFI) or SeaBIOS  
+  - Machine: `q35`  
+  - QEMU Agent: **Enable**
+
+- **Disks**
+  - Bus: SCSI  
+  - Storage: `zfs1`  
+  - Disk size: `20G`  
+  - Discard: Yes (TRIM)  
+  - IO Thread: Yes  
+
+- **CPU**
+  - 1 socket, 1 core  
+  - Type: `host`
+
+- **Memory**
+  - 2048 MB (ballooning enabled)
+
+- **Network**
+  - Bridge: `vmbr0`  
+  - Model: VirtIO (paravirtualized)
+
+Finish → Start VM.
 
 ---
 
-## 5. 👤 User Configuration
+## 🛠️ Step 3 – Install Ubuntu Server
 
-- Create a primary user (e.g., `user1`)
-- Choose a strong password
-- Set hostname (e.g., `pc1`)
-  
- <img width="880" height="331" alt="image" src="https://github.com/user-attachments/assets/5ae1aab3-a2e9-4f96-b52e-a99490d99349" />
+Console into the VM and follow the installer:
+
+- Keyboard/Language: your choice  
+- Network: static 
+- Disk: guided install on 20 GB  
+- User: create your admin user  
+- Enable OpenSSH server  
+
+Reboot when finished.
+
+<img width="713" height="529" alt="edd6b833-11c4-4e9f-af44-0c3b9d51e02a" src="https://github.com/user-attachments/assets/f83dfe1b-612e-4ee3-9554-e60329456172" />
+
 
 ---
 
-## 6. ⬇️ Package Selection
+## 🔧 Step 4 – Post-Install
 
-- Enable **OpenSSH server** (checked by default)
-- Skip other snaps unless needed
+SSH into the VM or use the console:
+
+```bash
+# Update base system
+sudo apt update && sudo apt full-upgrade -y
+
+# Install QEMU guest agent
+sudo apt install -y qemu-guest-agent
+sudo systemctl enable --now qemu-guest-agent
+```
 
 ---
 
-## 7. 🧼 Post-Install Cleanup (optional)
+## 🚧 Status
 
-- Eject USB and reboot
-- Login with your user credentials
-- Run the following commands:
-    1. sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target => I use this so that the PC will never enter sleep/hibernate.
-    2. sudo apt update && sudo apt upgrade -y => A good practice to have everything at the latest update.
+🟢 Actively maintained as part of my [`homelab`](https://github.com/raoulmoise/homelab) project.
+
+---
+
