@@ -1,6 +1,6 @@
 # 🐧 Ubuntu Server Setup
 
-This folder documents how I install and configure **Ubuntu Server 24.04 LTS** inside my homelab.  
+This folder documents how I install and configure **Ubuntu Server 24.X LTS** VM, where I have configured Portainer and Homepage. 
 The goal is to keep a reproducible process for deploying VMs and services on top of Ubuntu.  
 
 ---
