@@ -1,6 +1,6 @@
-# 🐧 Ubuntu Server Setup
+# 🐧 VM1 on Proxmox
 
-This folder documents how I install and configure **Ubuntu Server 24.X LTS** VM, where I have configured Portainer and Homepage. 
+This folder documents how I install and configure **Ubuntu Server 24.X LTS** VM, with Portainer and Homepage. 
 The goal is to keep a reproducible process for deploying VMs and services on top of Ubuntu.  
 
 ---
