@@ -6,9 +6,9 @@ The goal is to simulate production-like infrastructure by separating workloads i
 ---
 
 ## 📂 Files
-- **install.md** → Step-by-step installation of Proxmox VE  
-- **post-install.md** → Initial configuration (storage, network, users)  
-- **vm-layout.md** → List of VMs, roles, and resource allocation  
+- [install.md](https://github.com/raoulmoise/homelab/blob/main/proxmox-setup/install.md) → Step-by-step installation of Proxmox VE  
+- [post-install.md](https://github.com/raoulmoise/homelab/blob/main/proxmox-setup/post-install.md) → Initial configuration (storage, network, users)  
+- [vm-layout](https://github.com/raoulmoise/homelab/tree/main/proxmox-setup/vm-layout) → List of VMs, roles, and resource allocation  
 
 ---
 
