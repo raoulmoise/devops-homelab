@@ -9,6 +9,7 @@ As a system administrator with a passion for technology, the purpose of my homel
 
 - [Containers](https://github.com/raoulmoise/homelab/tree/main/containers)
 - [Proxmox](https://github.com/raoulmoise/homelab/tree/main/proxmox-setup)
+- [Ansible](https://github.com/raoulmoise/homelab/tree/main/ansible)
 
 ---
 
