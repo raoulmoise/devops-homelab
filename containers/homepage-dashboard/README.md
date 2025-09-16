@@ -55,14 +55,14 @@ services:
 
 Visit: HTTP://your-ip>:3000
 
-<img width="1898" height="1036" alt="image" src="https://github.com/user-attachments/assets/868bd063-0686-4d13-87fa-e4f0a632d37a" />
+<img width="1783" height="744" alt="image" src="https://github.com/user-attachments/assets/cb18d1b5-3620-431a-a477-db197b1ebd96" />
 
-
+---
 
 ## 🧠 Tips
 
 - You can [configure](https://github.com/raoulmoise/homelab/blob/96aa2341308cd4b757560acecb7d355e4446f792/containers/homepage-dashboard/configuration.md) your Dashboard using the different .yaml files provided by the container
-- After some testing with my server and some restart, I have noticed that the container does not restart automatically, so I have added this command:
+- After some testing with my server and some restarts, I have noticed that the container does not restart automatically, so I have added this command:
 ```bash
 sudo docker update --restart unless-stopped homepage
 ```
