@@ -21,7 +21,9 @@ This folder documents the containerized applications I’ve deployed in my homel
 ## 🧱 Deployment Notes
 
 - All containers are run using **Docker Compose**
-- Configuration files and volumes are stored under `/home/labops/docker_volumes`
+- Configuration files and volumes are stored under `/home/labops1/docker_volumes`
+- <img width="365" height="51" alt="image" src="https://github.com/user-attachments/assets/6232db64-a85e-483e-bc76-b2ac2af1e63f" />
+
 
 ---
 
