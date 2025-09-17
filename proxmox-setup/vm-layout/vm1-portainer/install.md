@@ -9,9 +9,9 @@ This guide documents the installation of **Ubuntu Server 24.04 LTS** inside **Pr
 - **Node:** `proxmoxmain`  
 - **VM Name:** `Portainer`  
 - **Storage:** `zfs1`  
-- **Disk Size:** 20 GB (SSD-backed)  
+- **Disk Size:** 60 GB (SSD-backed)  
 - **CPU:** 1 core  
-- **RAM:** 2 GB  
+- **RAM:** 4 GB  
 - **Network:** `vmbr0` bridge (VirtIO)  
 
 ---
@@ -41,7 +41,7 @@ From Proxmox Web UI:
 - **Disks**
   - Bus: SCSI  
   - Storage: `zfs1`  
-  - Disk size: `20G`  
+  - Disk size: `60G`  
   - Discard: Yes (TRIM)  
   - IO Thread: Yes  
 
@@ -50,7 +50,7 @@ From Proxmox Web UI:
   - Type: `host`
 
 - **Memory**
-  - 2048 MB
+  - 4096 MB
 
 - **Network**
   - Bridge: `vmbr0`  
@@ -66,7 +66,7 @@ Console into the VM and follow the installer:
 
 - Keyboard/Language: your choice  
 - Network: static 
-- Disk: guided install on 20 GB + LUKS crypt  
+- Disk: guided install on 60 GB + LUKS crypt  
 - User: create your admin user  
 - Enable OpenSSH server  
 
