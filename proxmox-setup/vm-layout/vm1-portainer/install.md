@@ -8,7 +8,7 @@ This guide documents the installation of **Ubuntu Server 24.04 LTS** inside **Pr
 
 - **Node:** `proxmoxmain`  
 - **VM Name:** `Portainer`  
-- **Storage:** `zfs1`  
+- **Storage:** `local-lvm`  
 - **Disk Size:** 60 GB (SSD-backed)  
 - **CPU:** 2 core  
 - **RAM:** 4 GB  
@@ -21,7 +21,7 @@ This guide documents the installation of **Ubuntu Server 24.04 LTS** inside **Pr
 1. Download **Ubuntu Server 24.x ISO**:  
    👉 [Ubuntu Server Downloads](https://ubuntu.com/download/server)
 
-2. Proxmox Web UI → `proxmoxmain` → **zfs1 › ISO Images › Upload** → select ISO.
+2. Proxmox Web UI → `proxmoxmain` → **local › ISO Images › Upload** → select ISO.
 
 ---
 
@@ -31,7 +31,7 @@ From Proxmox Web UI:
 
 - **General**
   - Node: `proxmoxmain`
-  - VM ID: auto (e.g., `100`)
+  - VM ID: `100`
   - Name: `Portainer`
 
 - **OS**
@@ -40,7 +40,7 @@ From Proxmox Web UI:
 
 - **Disks**
   - Bus: SCSI  
-  - Storage: `zfs1`  
+  - Storage: `local-lvm`  
   - Disk size: `60G`  
   - Discard: Yes (TRIM)  
   - IO Thread: Yes  
