@@ -7,8 +7,8 @@ The goal is to keep a reproducible process for deploying VMs and services on top
 
 ## 📦 Contents
 
-- [`install.md`](./install.md) → Clean installation steps for Ubuntu Server  
-- [`post-install.md`](./post-install.md) → Base configuration (updates, packages, Docker, etc.)  
+- [`install.md`](https://github.com/raoulmoise/homelab/blob/main/proxmox-setup/vm-layout/vm1-portainer/install.md) → Clean installation steps for Ubuntu Server  
+- [`post-install.md`](https://github.com/raoulmoise/homelab/blob/main/proxmox-setup/vm-layout/vm1-portainer/post-install.md) → Base configuration (updates, packages, Docker, etc.)  
 - Service-specific guides:
   - [homepage-dashboard](https://github.com/raoulmoise/homelab/tree/main/containers/homepage-dashboard)
   - [portainer](https://github.com/raoulmoise/homelab/tree/main/containers/portainer)
