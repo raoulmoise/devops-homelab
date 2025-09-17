@@ -72,8 +72,7 @@ Console into the VM and follow the installer:
 
 Reboot when finished.
 
-<img width="713" height="529" alt="edd6b833-11c4-4e9f-af44-0c3b9d51e02a" src="https://github.com/user-attachments/assets/f83dfe1b-612e-4ee3-9554-e60329456172" />
-
+<img width="668" height="237" alt="image" src="https://github.com/user-attachments/assets/b8bf6eca-b9a5-4717-9c00-b352f9750f6c" />
 
 ---
 
