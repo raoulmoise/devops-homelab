@@ -10,7 +10,7 @@ This guide documents the installation of **Ubuntu Server 24.04 LTS** inside **Pr
 - **VM Name:** `Portainer`  
 - **Storage:** `zfs1`  
 - **Disk Size:** 60 GB (SSD-backed)  
-- **CPU:** 1 core  
+- **CPU:** 2 core  
 - **RAM:** 4 GB  
 - **Network:** `vmbr0` bridge (VirtIO)  
 
@@ -46,7 +46,7 @@ From Proxmox Web UI:
   - IO Thread: Yes  
 
 - **CPU**
-  - 1 socket, 1 core  
+  - 1 socket, 2 cores  
   - Type: `host`
 
 - **Memory**
@@ -72,7 +72,7 @@ Console into the VM and follow the installer:
 
 Reboot when finished.
 
-<img width="713" height="529" alt="edd6b833-11c4-4e9f-af44-0c3b9d51e02a" src="https://github.com/user-attachments/assets/f83dfe1b-612e-4ee3-9554-e60329456172" />
+<img width="668" height="237" alt="image" src="https://github.com/user-attachments/assets/16a68e3d-7c45-4409-b49f-90452c27e8b6" />
 
 
 ---
