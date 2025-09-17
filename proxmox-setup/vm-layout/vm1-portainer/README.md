@@ -16,15 +16,12 @@ The goal is to keep a reproducible process for deploying VMs and services on top
 
 ---
 
-## ⚙️ VM Specifications (default template)
+## ⚙️ VM Specifications
 
-When deployed in **Proxmox**, I use this baseline for Ubuntu Server VMs:
-
-- **Disk**: 20–30 GB (ZFS or LVM backend)  
-- **CPU**: 1–2 cores  
-- **RAM**: 2 GB minimum (4 GB recommended for Docker-heavy workloads)  
-- **Network**: `virtio` with static IP  
-- **Extras**: QEMU Guest Agent installed for integration with Proxmox  
+- **Disk**: 60GB LVM 
+- **CPU**: 2 cores  
+- **RAM**: 4 GB
+- **Network**: `virtio` with static IP   
 
 ---
 
