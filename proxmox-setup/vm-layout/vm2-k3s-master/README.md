@@ -7,7 +7,7 @@ The goal is to keep a reproducible process for deploying VMs and services on top
 
 ## 📦 Contents
 
-- [`install.md`](./install.md) → Clean installation steps for Ubuntu Server  
+- [`install.md`](https://github.com/raoulmoise/homelab/blob/main/proxmox-setup/vm-layout/vm2-k3s-master/install.md) → Clean installation steps for Ubuntu Server  
 - [`post-install.md`](./post-install.md) → Base configuration (updates, packages, Docker, etc.)  
   
 ---
@@ -15,7 +15,7 @@ The goal is to keep a reproducible process for deploying VMs and services on top
 ## ⚙️ VM Specifications
 
 - **Disk**: 40 GB LVM 
-- **CPU**: 1cores  
+- **CPU**: 1 core  
 - **RAM**: 4 GB 
 - **Network**: `virtio` with static IP   
 
