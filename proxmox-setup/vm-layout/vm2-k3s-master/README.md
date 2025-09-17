@@ -14,7 +14,7 @@ The goal is to keep a reproducible process for deploying VMs and services on top
 
 ## ⚙️ VM Specifications
 
-- **Disk**: 40 GB (ZFS or LVM backend)  
+- **Disk**: 40 GB LVM 
 - **CPU**: 1cores  
 - **RAM**: 4 GB 
 - **Network**: `virtio` with static IP   
