@@ -38,8 +38,8 @@ services:
       - TZ=Europe/Bucharest
     volumes:
       - ./config:/config 
-      - /raid/Torrents:/tv  # /path/to/tv
-      - /raid/Torrents:/movies # /path/to/movies
+      - /Torrents:/tv  # /path/to/tv
+      - /Torrents:/movies # /path/to/movies
     ports:
       - 32400:32400
     restart: unless-stopped
