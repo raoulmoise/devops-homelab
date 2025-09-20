@@ -19,13 +19,17 @@ Run on the **server node**:
 ```bash
 curl -sfL https://get.k3s.io | sh -
 ```
+
 ```bash
 sudo systemctl status k3s
 ```
+
 <img width="640" height="68" alt="image" src="https://github.com/user-attachments/assets/4d8a9485-b538-4b3e-be59-dd8d0695a01a" />
+
 ```bash
 sudo k3s kubectl get nodes
 ```
+
 <img width="539" height="51" alt="image" src="https://github.com/user-attachments/assets/c463e68c-509f-463e-a20a-d70ff1fe71c0" />
 
 ---
