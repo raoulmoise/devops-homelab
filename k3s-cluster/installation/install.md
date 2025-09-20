@@ -10,6 +10,8 @@ This guide sets up a lightweight Kubernetes cluster with **one k3s server (contr
 - `curl` installed
 - At least:
   - Server: 2 vCPU, 4–6 GB RAM, SSD recommended (my k3s-master VM has 4GB RAM, 40GB SSD, and 2 vCPU)
+    <img width="671" height="228" alt="image" src="https://github.com/user-attachments/assets/3dc6cd2b-685a-4144-bf49-47c93252c597" />
+
   - Agent: 1 vCPU, 2 GB RAM
 
 ---
