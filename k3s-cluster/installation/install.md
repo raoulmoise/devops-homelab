@@ -42,7 +42,7 @@ sudo k3s token create
 ```
 ---
 ## ☸️ k3s agent nodes 
-[k3s-worker1](https://github.com/raoulmoise/homelab/blob/main/k3s-cluster/k3s-workers/worker1/README.md)
+[k3s-worker1](https://github.com/raoulmoise/homelab/tree/main/k3s-cluster/k3s-workers/worker1)
 
 ---
 ## 🚧 Status
