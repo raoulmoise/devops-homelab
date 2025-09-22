@@ -16,7 +16,9 @@ It helps to:
 
 ## 🧱 Repo Structure
 
-(Work in progress)
+- [group_vars](https://github.com/raoulmoise/homelab/tree/main/ansible/group_vars)
+- [inventory](https://github.com/raoulmoise/homelab/tree/main/ansible/inventory)
+- [playbooks](https://github.com/raoulmoise/homelab/tree/main/ansible/playbooks)
 
 ---
 
