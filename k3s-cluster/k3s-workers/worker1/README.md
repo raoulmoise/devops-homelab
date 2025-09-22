@@ -1,7 +1,8 @@
 # ☸️ k3s Worker Node – worker1
 
-This node is part of the k3s cluster.  
+This node is part of the k3s cluster and will represent the **monitoring** node for my homelab.  
 It was joined to the master node using the **node token** from the server.
+
 
 ---
 ## Join Command Used
