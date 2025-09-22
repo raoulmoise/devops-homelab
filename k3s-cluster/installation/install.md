@@ -35,10 +35,13 @@ sudo k3s kubectl get nodes
 <img width="539" height="51" alt="image" src="https://github.com/user-attachments/assets/c463e68c-509f-463e-a20a-d70ff1fe71c0" />
 
 ---
-## ☸️ k3s agent nodes *(Coming soon)*
+## ☸️ k3s agent nodes 
+[k3s-worker1](https://github.com/raoulmoise/homelab/blob/main/k3s-cluster/k3s-workers/worker1/README.md)
 
 ---
 ## 🚧 Status
+<img width="1308" height="63" alt="image" src="https://github.com/user-attachments/assets/f861a86e-8b19-4d83-96a9-9069f5754913" />
+
 
 🟢 Actively maintained as part of my [`homelab`](https://github.com/raoulmoise/homelab) project.
 
