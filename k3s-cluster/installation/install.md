@@ -35,6 +35,12 @@ sudo k3s kubectl get nodes
 <img width="539" height="51" alt="image" src="https://github.com/user-attachments/assets/c463e68c-509f-463e-a20a-d70ff1fe71c0" />
 
 ---
+## 🔑 Create token
+
+```bash
+sudo k3s token create
+```
+---
 ## ☸️ k3s agent nodes 
 [k3s-worker1](https://github.com/raoulmoise/homelab/blob/main/k3s-cluster/k3s-workers/worker1/README.md)
 
