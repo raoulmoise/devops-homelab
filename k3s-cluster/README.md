@@ -15,9 +15,9 @@ This repository provides configuration, installation steps, and add-ons for runn
 
 ---
 
-## 📂 Files
-- [README.md](https://github.com/raoulmoise/homelab/edit/main/k3s-cluster/) # Project overview
-- [install.md](https://github.com/raoulmoise/homelab/blob/main/k3s-cluster/installation/install.md) # Detailed installation guide
+## 📂 Repo structure
+- [k3s-cluster(https://github.com/raoulmoise/homelab/edit/main/k3s-cluster/) # Project overview
+- [installation](https://github.com/raoulmoise/homelab/tree/main/k3s-cluster/installation) # Detailed installation guide
 - manifests # Example Kubernetes manifests *(Coming soon)*
 - configs # Example k3s config.yaml templates *(Coming soon)*
 
