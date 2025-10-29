@@ -7,10 +7,10 @@ As a system administrator with a passion for technology, the purpose of my homel
 
 ## 📂 Quick Links
 
-- [Containers](https://github.com/raoulmoise/homelab/tree/main/containers)
-- [Proxmox](https://github.com/raoulmoise/homelab/tree/main/proxmox-setup)
-- [Ansible](https://github.com/raoulmoise/homelab/tree/main/ansible)
-- [K3s](https://github.com/raoulmoise/homelab/tree/main/k3s-cluster)
+- [Containers](https://github.com/raoulmoise/devops-homelab/tree/main/containers)
+- [Proxmox](https://github.com/raoulmoise/devops-homelab/tree/main/proxmox-setup)
+- [Ansible](https://github.com/raoulmoise/devops-homelab/tree/main/ansible)
+- [K3s](https://github.com/raoulmoise/devops-homelab/tree/main/k3s-cluster)
 
 ---
 
@@ -85,6 +85,6 @@ All steps and notes are documented here:
 
 ## 🚧 Status
 
-🟢 Actively maintained as part of my [`homelab`](https://github.com/raoulmoise/homelab) project.
+🟢 Actively maintained as part of my [`devops-homelab`](https://github.com/raoulmoise/devops-homelab) project.
 
 ---
