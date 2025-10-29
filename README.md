@@ -16,7 +16,6 @@ As a system administrator with a passion for technology, the purpose of my homel
 
 ## 🧠 Goals
 
-- Push weekly commits to GitHub with notes
 - Use public lab as a living resume
 - Develop job-ready DevOps–SRE reflexes through real tools
 
